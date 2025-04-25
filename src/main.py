@@ -44,7 +44,7 @@ while True:
             print("Invalid task number.")
     elif choice == "6":
         manager.save_to_file()
-    elif choice == "0":
+    elif choice == "7":
         break
 
 
