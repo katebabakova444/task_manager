@@ -3,6 +3,7 @@ class TaskManager:
         self.tasks = []
     def add_task(self, task):
         self.tasks.append(task)
+        print("Task added.")
     def list_tasks(self):
         return self.tasks
     def list_completed(self):
@@ -11,20 +12,21 @@ class TaskManager:
         if 0 <= index < len(self.tasks):
             self.tasks.pop(index)
     def display_tasks(self, task_list):
-        print("===Tasks===")
+        print("\n=== Tasks ===")
         if not task_list:
             print("No tasks found.")
         for i, task in enumerate(task_list, start=1):
-            print(f"{i}. {task}")
+            print(f"[{i}]. {task}")
     def display_completed_tasks(self):
         completed = self.list_completed()
+        print("\n=== Completed Tasks ===")
         if not completed:
             print("No completed tasks to display.")
         else:
             self.display_tasks(completed)
     def save_to_file(self):
         with open("../task_report.txt", "w") as file:
-            file.write("===Task Report===\n\n")
+            file.write("=== Task Report=== \n\n")
             task_list = self.tasks
             if not task_list:
                 print("No tasks available.\n")
