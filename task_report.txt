@@ -1,5 +1,0 @@
-=== Task Report=== 
-
-1. [✓] ww - ww
-2. [ ] ww - df
-3. [ ] sd - 2
