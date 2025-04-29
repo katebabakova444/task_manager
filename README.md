@@ -1,11 +1,24 @@
-# Task Manager
+# Task Manager (Mini App)
 
-This is a console-based task management application written in Python. It allows you to:
-- Add tasks with descriptions
-- View all tasks
+Simple console-based Task Management application built in Python.
+
+## Features
+- Add tasks with optional descriptions
+- List all tasks
+- List completed tasks
 - Mark tasks as completed
-- Remove tasks
-- Save tasks to a `.txt` report file
+- Remove tasks by number
+- Save tasks to a .txt file
+- Clear console after each action (future enhancement)
+
+## Project Structure
+task_manager/
+├── src/
+│   ├── main.py
+│   ├── task.py
+│   └── manager.py
+├── README.md
+├── .gitignore
 
 ## How to run
 ```bash
