@@ -1,12 +1,12 @@
-# ✅ Task Manager
+#  Task Manager
 
 Simple console-based task management application built in Python.
 
-## 💡 Why I Built This
+##  Why I Built This
 
 This was my second OOP project. After learning to structure data with classes, I wanted to explore how to manage and update object states — like marking tasks as complete — while keeping code modular and clean.
 
-## 🛠 Features
+##  Features
 
 - Add tasks with optional descriptions  
 - List all tasks  
@@ -16,14 +16,14 @@ This was my second OOP project. After learning to structure data with classes, I
 - Save tasks to a `.txt` file  
 - Clear console after each action *(planned enhancement)*
 
-## 🔧 Tech & Concepts
+##  Tech & Concepts
 
 - Object-Oriented Programming (OOP): encapsulation, methods, attributes  
 - CLI-based logic: input loops, state tracking  
 - File I/O for saving tasks  
 - Modular code design (SRP mindset)
 
-## 📁 Project Structure
+##  Project Structure
 
 task_manager/
 ├── src/
@@ -33,12 +33,12 @@ task_manager/
 ├── README.md
 ├── .gitignore
 
-## ▶️ How to run
+##  How to run
 ```bash
 python src/main.py
 ```
 
-## 👩‍💻 Author
+## Author
 
 Created by Kateryna Babakova (https://github.com/katebabakova444)
 This project is part of my backend development journey.
